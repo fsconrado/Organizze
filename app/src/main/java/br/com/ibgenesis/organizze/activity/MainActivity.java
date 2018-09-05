@@ -9,6 +9,8 @@ import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
 
 import br.com.ibgenesis.organizze.R;
+import br.com.ibgenesis.organizze.activity.CadastroActivity;
+import br.com.ibgenesis.organizze.activity.LoginActivity;
 
 public class MainActivity extends IntroActivity {
 
@@ -17,6 +19,7 @@ public class MainActivity extends IntroActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
+
 
         setButtonNextVisible(false);
         setButtonBackVisible(false);
@@ -48,12 +51,12 @@ public class MainActivity extends IntroActivity {
 
     }
 
-    public void btEntrar(View view){
+    public void btEntrar(View view) {
         startActivity(new Intent(this, LoginActivity.class));
     }
 
-    public void btCadastrar(View view){
-        startActivity( new Intent(this, CadastroActivity.class));
+    public void btCadastrar(View view) {
+        startActivity(new Intent(this, CadastroActivity.class));
 
     }
 

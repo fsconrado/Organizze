@@ -2,6 +2,7 @@ package br.com.ibgenesis.organizze.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.EditText;
 
 import br.com.ibgenesis.organizze.R;
 
